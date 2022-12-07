@@ -1,0 +1,159 @@
+@media screen and (max-width:1200px) {
+  #contact h3 {
+    font-size: 30px;
+    width: 100%;
+  }
+
+  .card-contact {
+    width: 100%;
+    height: auto;
+    margin-top: 42px;
+  }
+
+  .card-contact h2 {
+    font-size: 28px;
+    line-height: 42px;
+  }
+}
+
+@media screen and (max-width:922px) {
+
+    #rekomendasi {
+      margin-top: 100px;
+    }
+
+    .button-fitur {
+      width: 100%;
+    }
+
+    #contact h3 {
+      font-size: 30px;
+      width: 100%;
+    }
+
+    .card-contact {
+      width: 100%;
+      height: auto;
+      margin-top: 42px;
+    }
+
+    .card-contact h2 {
+      font-size: 28px;
+      line-height: 42px;
+    }
+
+    .nav-tabs .nav-link {
+      font-size: 12px;
+      padding-inline: 8px;
+      padding-block: 4px;
+    }
+
+    .nav-tabs :nth-child(1) .nav-link {
+      border-radius: 3px 0 0 0;
+    }
+
+    .nav-tabs :nth-child(3) .nav-link {
+      border-radius: 0 3px 0 0;
+    }
+
+    .nav-tabs .nav-link.active {
+      border-radius: 3px 3px 0 0;
+      padding-bottom: 6px;
+      padding-top: 6px;
+    }
+
+    .input-cari .form-control {
+      margin: 0 !important;
+    }
+
+    .input-group.input-cari .button-primary {
+      display: block !important;
+      font-size: 24px;
+      width: 100%;
+      margin: 0 !important;
+      border-radius: 0 0 10px 10px !important;
+    }
+    
+    .input-group.input-cari .button-secondary {
+      display: block;
+      width: 100%;
+      width: 120px;
+      font-size: 14px;
+      border-radius: 0 0 0 0;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .hero-tagline h1 {
+      line-height: 52px;
+      font-size: 30px;
+    }
+
+    .img-hero {
+      width: 75%;
+      height: auto;
+    }
+
+    .img-accsent {
+      height: 75%;
+      width: auto;
+    }
+
+    h2 {
+      font-size: 34px;
+    }
+
+    .sub-title {
+      font-size: 16px;
+    }
+
+    .card-layanan {
+      margin: 15px 0;
+    }
+
+    #search h2 {
+      font-size: 42px;
+      line-height: 52px;
+    }
+
+    #search p {
+      font-size: 18px;
+      line-height: 24px;
+    }
+
+    .input-cari .button-secondary {
+      width: 50%;
+      height: 60px;
+      border-radius: 0;
+    }
+
+    .input-cari .button-primary {
+      width: 30%;
+      height: 60px;
+      font-size: 20px;
+      border-radius: 0 0 10px 0;
+    }
+
+    .input-cari .form-control {
+      height: 60px !important;
+    }
+}
+
+@media screen and (max-width:400px) {
+
+}
+
+
+@media screen and (max-width:375px) {
+  .hero-tagline h1 {
+    font-size: 28px;
+  }
+
+  .hero-tagline p {
+    font-size: 12px;
+  }
+
+  .img-accsent {
+    max-width: 250px;
+  }
+}

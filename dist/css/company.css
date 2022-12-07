@@ -1,0 +1,109 @@
+@font-face {
+  font-family: 'poppins';
+  src: local('poppins');
+}
+
+:root {
+  --primary-color: #001253;
+  --secondary-color: #FF004D;
+  --text-color: #141010;
+  --background-color: #fafeff;
+
+  --gr-color: #048853
+}
+
+body {
+  font-family: 'poppins', sans-serif;
+  background-color: green;
+}
+
+/* NAVBAR */
+
+.navbar {
+  z-index: 3;
+}
+
+* {
+  z-index: 2;
+}
+
+.img-accsent {
+  z-index: 1;
+}
+
+.img-hero {
+  z-index: 1;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.nav-link {
+  font-size: 16px;
+}
+
+.nav-link.active {
+  font-weight: 700;
+}
+
+.button-primary {
+  width: 133px;
+  height: 40px;
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.button-secondary {
+  width: 133px;
+  height: 40px;
+  background-color: #fff;
+  color: green;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+/* HERO */
+
+#hero {
+  background: linear-gradient(160deg, var(--primary-color), #000);
+  height: 100vh;
+  width: 100%;
+}
+
+img-hero {
+  height: 100%;
+}
+
+.hero-tagline h1 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 72px;
+}
+
+.hero-tagline p {
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 60px;
+  margin-top: 20px;
+  line-height: 30px;
+  width: 85%;
+}
+
+.button-lg-primary {
+  width: 237px;
+  height: 70px;
+  background-color: #fff;
+  color: green;
+  border: none;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: 700;
+}
